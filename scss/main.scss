@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+@import './index.scss';
+@import './quien-soy.scss';
+@import './formatos.scss';
+@import './eventos.scss';
+@import './contacto.scss';
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.7fr 1.8fr 0.5fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "nav nav nav"
+    "main main main"
+    "footer footer footer";
+  background-image: url(../img/img1.JPG);
+
+  background-size: cover;
+  background-position: center;
+
+  height: 230vh;
+  width: 100vw;
+}
+
+
+nav {
+  grid-area: nav;
+  background: black;
+  height: 105px;
+  width: 100%;
+}
+
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+  margin-top: 14px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+  background: darkblue;
+  transition: .5s;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+.footergrid {
+  grid-area: footer;
+}
+
+.footerflex {
+  grid-area: footer;
+  display: flex;
+  font-size: 70px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.footerflex li {
+  margin: 15px;
+}
+
+
+
+
+@media (max-width: 952px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+
+
+
+
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+
+  nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  a:hover,
+  a.active {
+    background: none;
+    color: #0082e6;
+  }
+
+  #check:checked~ul {
+    left: 0;
+  }
+}
+
+section {
+  background: url(bg1.jpg) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
+
+@media (max-width: 320px){
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.7fr 1.8fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "nav nav nav"
+      "main main main"
+      "footer footer footer";
+    background-image: url(../img/img1.JPG);
+  
+    background-size: cover;
+    background-position: center;
+  
+    height: 230vh;
+    width: 240vw;
+  }
+  
+  form {
+    background: white;
+    width: 408px;
+    margin: 50px auto;
+    max-width: 97%;
+    border-radius: 4px;
+    padding: 55px 30px;
+    margin-left: 167px;
+  }
+  .card {
+
+    grid-area: main;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -127px;
+    margin-left: 33px;
+    margin-right: 10px;
+    align-items: flex-start;
+  }
+
+  .card__perfil {
+    width: 215px;
+    padding: 11px;
+    box-shadow: 1px 1px 5px #c9c9c9;
+    border: solid rgba(3, 133, 255, 0) 10px;
+    border-radius: 10px;
+    border-style: inset;
+    background-color: aliceblue;
+    margin: 14px;
+  }
+}
+

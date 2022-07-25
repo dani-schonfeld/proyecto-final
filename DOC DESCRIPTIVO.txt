@@ -1,0 +1,32 @@
+ En el archivo index.html sumé el SEO con las siguientes características
+Descripción mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio “el retromante artista performático musical con el objetivo de hacer bailar
+
+Palabras clave mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio music, dancefloor, trap, ebm
+Encabezado para el encabezado del h1 utilicé el texto “ESTA ES LA PAGINA DEL RETROMANTE”
+
+ En el archivo quien-soy.html sumé el SEO con las siguientes características
+Descripción mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio “el retromante artista performático musical con el objetivo de hacer bailar
+
+Palabras clave mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio fender, sony, drumandbass, pop
+Encabezado para el encabezado del h1 utilicé el texto “SE PREGUNTARAN QUIEN SOY”
+
+En el archivo formatos.html sumé el SEO con las siguientes características
+Descripción mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio “el retromante artista performático musical con el objetivo de hacer bailar
+
+Palabras clave mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio ableton, traktor, instruments, pop
+Encabezado para el encabezado del h1 utilicé el texto “EL RETROMANTE PUEDE PRESENTARSE DE LAS SIGUIENTES MANERAS”
+
+En el archivo CONTACTO.html sumé el SEO con las siguientes características
+Descripción mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio “el retromante artista performático musical con el objetivo de hacer bailar
+Palabras clave mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio shows, recitales, artistas, techno
+Encabezado para el encabezado del h1 utilicé el texto “CONTRATAME PARA LOS SIGUIENTES EVENTES”
+
+
+
+
+En el archivo eventos.html sumé el SEO con las siguientes características
+Descripción mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio “el retromante artista performático musical con el objetivo de hacer bailar
+Palabras clave mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio shows, recitales, artistas, techno
+Encabezado para el encabezado del h1 utilicé el texto “CONTACTAME”
+
+
